@@ -68,7 +68,7 @@ function AddUserModal({ onAddItem }) {
         <ModalContent>
           <ModalHeader>Ajouter un Réassureur</ModalHeader>
           <ModalBody>
-            <FormControl>
+            <FormControl isRequired>
               <FormLabel>Nom </FormLabel>
               <Input
                 placeholder="Entrez le nom de l'utilisteur"
@@ -77,7 +77,7 @@ function AddUserModal({ onAddItem }) {
               />
             </FormControl>
           
-            <FormControl>
+            <FormControl isRequired>
               <FormLabel>Email </FormLabel>
               <Input
                 placeholder="Entrez l'email de l'utilisteur"
@@ -96,7 +96,7 @@ function AddUserModal({ onAddItem }) {
               />
             </FormControl>
 
-            <FormControl>
+            <FormControl isRequired>
               <FormLabel>Role</FormLabel>
               <Select value={selectedRole.value} onChange={handleRoleChange}>
                 {roles.map((role) => (

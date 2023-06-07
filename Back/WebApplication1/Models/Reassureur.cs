@@ -17,7 +17,9 @@
         public string? MotPasse { get; set; }
         public string? Role { get; set; }
         public int? isDeleted { get; set; }
-
+        public string? Nom { get; set; }
+        public string? Prenom { get; set; }
+        public int? Telephone { get; set; }
         public virtual ICollection<CompteBancaire>? CompteBancaires { get; set; }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maram\\Downloads\\React\\Back\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\khlif\\Documents\\GitHub\\react-.NET-Assurance\\Back\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maram\\Downloads\\React\\Back\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\khlif\\Documents\\GitHub\\react-.NET-Assurance\\Back\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maram\\Downloads\\React\\Back\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\khlif\\Documents\\GitHub\\react-.NET-Assurance\\Back\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\maram\\Downloads\\React\\Back\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\maram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maram\\Downloads\\React\\Back\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\khlif\\Documents\\GitHub\\react-.NET-Assurance\\Back\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\khlif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khlif\\Documents\\GitHub\\react-.NET-Assurance\\Back\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\khlif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
