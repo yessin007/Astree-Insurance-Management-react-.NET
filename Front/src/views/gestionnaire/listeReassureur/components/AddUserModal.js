@@ -22,9 +22,10 @@ function AddUserModal({ onAddItem }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [itemName, setItemName] = useState("");
   //const [itemPrenom, setItemPrenom] = useState("");
-
+  const [itemPassword, setItemPassword] = useState("");
   const [itemEmail, setItemEmaiil] = useState("");
   // const [itemName, setItemName] = useState("");
+
 
   const handleItemNameChange = (event) => {
     setItemName(event.target.value);
@@ -38,9 +39,10 @@ function AddUserModal({ onAddItem }) {
 
 
   const handleAddItem = () => {
-    onAddItem(itemName, itemEmail,selectedRole.value);
+    onAddItem(itemName, itemEmail,selectedRole.value,itemPassword);
     setItemName("");
     setItemEmaiil("");
+    setItemPassword("");
     onClose();
   };
   //role
@@ -50,6 +52,11 @@ function AddUserModal({ onAddItem }) {
     const selectedRole = roles.find((role) => role.value === selectedValue);
     setSelectedRole(selectedRole);
   };
+
+  const handleItemPasswordChange = (event) => {
+    setItemPassword(event.target.value);
+  };
+
   return (
     <>
       <Button colorScheme="blue" variant="outline" onClick={onOpen}>
@@ -78,6 +85,17 @@ function AddUserModal({ onAddItem }) {
                 onChange={handleItemEmailChange}
               />
             </FormControl>
+
+            <FormControl isRequired>
+              <FormLabel>Password</FormLabel>
+              <Input
+                  placeholder="Entrez le Password de l'utilisteur"
+                  value={itemPassword}
+                  onChange={handleItemPasswordChange}
+                  type="password"
+              />
+            </FormControl>
+
             <FormControl>
               <FormLabel>Role</FormLabel>
               <Select value={selectedRole.value} onChange={handleRoleChange}>

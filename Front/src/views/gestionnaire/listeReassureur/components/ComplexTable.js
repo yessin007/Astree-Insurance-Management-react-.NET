@@ -88,42 +88,8 @@ export default function ColumnsTable(props) {
 
   /// edit
 
-  const [items, setItems] = useState([
-    {
-      id: 1,
-      code:"11",
-      name: "Test",
-      nationalite: "Test",
-      adresse: "Test@gmail.com",
-      paysTransfer: "Admin",
-      numCompte: "Test@gmail.com",
-      CodeSwift: "Admin",
-      CodeBic: "Admin",
-    },
-    {
-      id: 2,
-      code:"15",
-      name: "Test",
-      nationalite: "Test",
-      adresse: "Test@gmail.com",
-      paysTransfer: "Admin",
-      numCompte: "Test@gmail.com",
-      CodeSwift: "Admin",
-      CodeBic: "Admin",
-    },
-    {
-      id: 3,
-      code:"100",
-      name: "Test",
-      nationalite: "Test",
-      adresse: "Test@gmail.com",
-      paysTransfer: "Admin",
-      numCompte: "Test@gmail.com",
-      CodeSwift: "Admin",
-      CodeBic: "Admin",
-    },
-   
-  ]);
+
+  const [items, setItems] = useState([]);
 
   const [selectedItem, setSelectedItem] = useState(null);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
